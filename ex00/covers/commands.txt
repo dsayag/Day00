@@ -1,0 +1,169 @@
+370  cd Piscine
+  371  cd..
+  372  cd ..
+  373  cd Piscine/
+  374  ls
+  375  cd DavidSayag/
+  376  mkdir covers
+  377  ls
+  378  cd covers/
+  379  mkdir Constructeurs
+  380  ls
+  381  cd Constructeurs/
+  382  mkdir Sony
+  383  ls
+  384  cd ..
+  385  ls
+  386  ls la
+  387  ls -a
+  388  cd Constructeurs/
+  389  ls
+  390  mkdir Nintendo
+  391  mkdir Microsoft
+  392  ls
+  393  cd Sony/
+  394  mkdir Consoles
+  395  cd Consoles/
+  396  mkdir PS4 PS5
+  397  ls
+  398  cd PS4
+  399  mkdir fifa14 Uncharted
+  400  cd ..
+  401  ls
+  402  cd PS5
+  403  mkdir FarCry6
+  404  ls
+  405  cd ..
+  406  cd ..
+  407  ls
+  408  mkdir Consoles_portables
+  409  cd ..
+  410  cd Nintendo/
+  411  ls
+  412  mkdir Consoles Consoles_portables
+  413  cd Consoles
+  414  mkdir Gamecube
+  415  cd Gamecube/
+  416  mkdir Super_Mario_Sunshine
+  417  cd ..
+  418  cd ..
+  419  cd ..
+  420  cd Microsoft/
+  421  ls
+  422  mkdir Consoles
+  423  cd Consoles/C
+  424  cd Consoles/
+  425  mkdir Xbox Xbox360
+  426  cd ..
+  427  cd Consoles/
+  428  cd Xbox
+  429  mkdir Dead_to_Rights
+  430  cd ..
+  431  ls
+  432  cd Xbox
+  433  ls
+  434  mkdir Halo_Combat_Evolved
+  435  cd ..
+  436  cd Xbox360
+  437  mkdir Call_of_Duty_4 Call_of_Duty_3
+  438  cd ..
+  439  cd ..
+  440  cd ..
+  441  ls
+  442  mkdir Sega
+  443  cd Sega
+  444  mkdir Consoles
+  445  cd Consoles/
+  446  mkdir Dreamcast
+  447  cd Dreamcast/
+  448  mkdir Jet_Set_Radio Shenmue
+  449  cd ..
+  450  cd ..
+  451  cd ..
+  452  cd ..
+  453  ls
+  454  mv dc_jetsetradio_eu_front.jpg Constructeurs/Sega/Consoles/Dreamcast/Jet_Set_Radio
+  455  mv dc_jetgrindradio_10.jpg Constructeurs/Sega/Consoles/Dreamcast/Jet_Set_Radio
+  456  mv dc_shenmue_eu.jpg Constructeurs/Sega/Consoles/Dreamcast/Shenmue/
+  457  mv dc_shenmueii_5.jpg Constructeurs/Sega/Consoles/Dreamcast/Shenmue/
+  458  mv gameboy.pokmonred.jpg Constructeurs/Nintendo/Consoles_portables/
+  459  mv gb_pokemonblue_eu.jpg gb_pokemongreen_3.jpg gb_pokemonyellow_au.jpg gbc_pokemongold.jpg Constructeurs/Nintendo/Consoles_portables/
+  460  cd Constructeurs/Nintendo/Consoles/Gamecube/
+  461  mkdir Mario_Kart
+  462  cd ~
+  463  ls
+  464  d:
+  465  cd d:
+  466  cd IT-Akademy/
+  467  cd DFS24A/AD9/Piscine/DavidSayag/Day00/covers/
+  468  mv gc_mariokartdoubledash.jpg Constructeurs/Nintendo/Consoles/Gamecube/Mario_Kart/
+  469  mv gc_supermariosunshine.jpg Constructeurs/Nintendo/Consoles/Gamecube/Super_Mario_Sunshine/
+  470  mv playstation_4.assassinscreedodyssey.jpg playstation_4.unchartedthelostlegacy.jpg playstation_4.watchdogs2.jpg Constructeurs/Sony/Consoles/PS4
+  471  mv playstation_5.assassinscreedvalhalla.jpg playstation_5.farcry6.jpg playstation_5.residentevilvillage_.jpg Constructeurs/Sony/Consoles/PS5
+  472  mv ps4_fifa14.jpg Constructeurs/Sony/Consoles/PS4/fifa14/
+  473  mv x360_callfoduty3.jpg x360_callofduty2.jpg x360_callofduty4.jpg x360_callofdutyblackopsii.jpg Constructeurs/Microsoft/Consoles/Xbox360
+  474  mv xbox_360.fableiii.jpg Constructeurs/Microsoft/Consoles/Xbox360
+  475  mv xbox_deadoralive3.jpg xbox_deadtorights.jpg xbox_defjamfightforny.jpg xbox_halo2.jpg xbox_halo_2.jpg xbox_jetsetradiofuture_2.jpg xbox_needforspeedunderground2.jpg Constructeurs/Microsoft/Consoles/Xbox
+  476  cd Constructeurs/Microsoft/Consoles/Xbox
+  477  mkdir Dead_or_Alive
+  478  mkdir Def_Jam_Fight_For_NY
+  479  mkdir Halo
+  480  mkdir Halo_2
+  481  mv xbox_deadoralive3.jpg Dead_or_Alive/
+  482  mv xbox_deadtorights.jpg Dead_to_Rights/
+  483  mv xbox_defjamfightforny.jpg Def_Jam_Fight_For_NY/
+  484  mv xbox_halo_2.jpg Halo_2
+  485  mv xbox_halo2.jpg Halo_2
+  486  mkdir Jet_Set_Radio_Future_2
+  487  mv xbox_jetsetradiofuture_2.jpg Jet_Set_Radio_Future_2/
+  488  mkdir Need_For_Speed
+  489  mv xbox_needforspeedunderground2.jpg Need_For_Speed/
+  490  cd ..
+  491  c
+  492  cd Xbox360
+  493  mv x360_callfoduty3.jpg Call_of_Duty_3
+  494  mv x360_callofduty4.jpg Call_of_Duty_4
+  495  mkdir Call_of_Duty_2
+  496  mv x360_callofduty2.jpg Call_of_Duty_2
+  497  mkdir Fable
+  498  mv xbox_360.fableiii.jpg Fable/
+  499  mkdir Call_of_Duty_Black_Ops_2
+  500  mv x360_callofdutyblackopsii.jpg Call_of_Duty_Black_Ops_2/
+  501  cd ..
+  502  cd Xbox
+  503  rm Halo
+  504  rmdir Halo
+  505  cd Halo_2
+  506  mv xbox_halo_2.jpg ../Halo_Combat_Evolved/
+  507  cd ..
+  508  cd ..
+  509  cd ..
+  510  cd ..
+  511  cd Sony/Consoles/PS4
+  512  mkdir Assassins_Creed
+  513  mv playstation_4.unchartedthelostlegacy.jpg Uncharted/
+  514  mv playstation_4.assassinscreedodyssey.jpg Assassins_Creed/
+  515  mkdir Watchdogs
+  516  mv playstation_4.watchdogs2.jpg Watchdogs/
+  517  cd ..
+  518  cd PS5
+  519  mkdir Assassins_Creed
+  520  mkdir Resident_Village
+  521  mv playstation_5.assassinscreedvalhalla.jpg Assassins_Creed/
+  522  mv playstation_5.farcry6.jpg FarCry6/
+  523  mv playstation_5.residentevilvillage_.jpg Resident_Village/
+  524  history
+  525  ls ~ > home-contents.txt
+  526  ls
+  527  rm home-contents.txt 
+  528  cd ..
+  529  cd ..
+  530  cd ..
+  531  cd ..
+  532  history
+  533  ls ~ > commands.txt
+  534  history 370 > commands.txt
+  535  history 1 > commands.txt
+  536  history370 > commands.txt
+  537  history 370 > commands.txt
+  538  history > commands.txt
