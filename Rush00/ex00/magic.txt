@@ -1,0 +1,6 @@
+Ex00
+sed -i '10,11d' deposition_Joe_Rugiani.txt
+
+Ex01
+sed -i -e "s/cadillac jaune/chevrolet impala/g" deposition_Joe_Rugiani_2.txt
+sed -i -e "s/chapeau rouge/chapeau vert/g" deposition_Joe_Rugiani_2.txt
