@@ -1,1 +1,1 @@
-Cameron,Officer,8
+awk -F ',' ' $1 == "Cameron" ' tcpd_department.csv > tcpd_department_officer.txt
