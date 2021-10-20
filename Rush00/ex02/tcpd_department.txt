@@ -1,1 +1,3 @@
 awk -F ',' ' $2 == "Officer" ' tcpd_department.csv > tcpd_department.txt
+
+Alternative : grep Officer tcpd_department.csv > tcpd_department.txt

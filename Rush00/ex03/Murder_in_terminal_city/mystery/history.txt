@@ -1,0 +1,155 @@
+  598  ls
+  599  cd ..
+  600  ls
+  601  cat instructions 
+  602  ls
+  603  cd mystery/
+  604  ls
+  605  head -n 20 people
+  606  grep CLUE crimescene 
+  607  head people
+  608  grep "Annabel" people
+  609  ls
+  610  cd streets/
+  611  ls
+  612  cd ..
+  613  head vehicles 
+  614  head -n 100 people
+  615  head people
+  616  head -n 173 streets/Mattapan_Street | tail -n 1
+  617  ls
+  618  grep "#9437737" interview
+  619  cd interviews/
+  620  ls
+  621  cat interview-9437737 
+  622  ls
+  623  cd ..
+  624  ls
+  625  grep "Honda" vehicles 
+  626  grep "Blue" vehicles 
+  627  grep "L337" vehicles 
+  628  cat vehicles | grep Honda
+  629  ls
+  630  cat vehicles 
+  631  cat vehicles | grep Make
+  632  cat vehicles | grep Make | grep Blue
+  633  cat vehicles | grep Make | grep Blue | grep L337
+  634  cat vehicles | grep Make > vehicules_Make
+  635  cat vehicules_Make 
+  636  ls
+  637  cat people | grep Annabel
+  638  grep -a 10 "L337" vehicles 
+  639  grep -b 10 "L337" vehicles 
+  640  grep -b 3 "L337" vehicles 
+  641  grep a- 5 -b 10 "L337" vehicles 
+  642  grep A- 5 "L337" vehicles 
+  643  grep -A 5 "L337" vehicles 
+  644  grep -A 5 "L337" vehicles > vehicles_licence_plate
+  645  cat vehicles_licence_plate 
+  646  grep "Blue" vehicles > vehicles_licence_plate
+  647  cat vehicles_licence_plate 
+  648  grep -A 5 "L337" vehicles
+  649  grep -A 100 "L337" vehicles
+  650  grep "L337" vehicles
+  651  grep "L337" vehicles > vehicles_licence_plate
+  652  cat vehicles_licence_plate 
+  653  grep "Blue" vehicles
+  654  grep "Blue" vehicles_licence_plate 
+  655  grep -A 10 "L337" vehicles > vehicles_licence_plate
+  656  grep -A 10 "L337" vehicles
+  657  grep -n 10 "L337" vehicles
+  658  grep -n 20 "L337" vehicles
+  659  grep -n 100 "L337" vehicles
+  660  grep -n 200 "L337" vehicles
+  661  grep -n -5 "L337" vehicles
+  662  grep -n -6 "L337" vehicles
+  663  grep -a -6 "L337" vehicles
+  664  grep -a -10 "L337" vehicles
+  665  grep -b 10 "L337" vehicles
+  666  grep -b 1 "L337" vehicles
+  667  grep -b 2 "L337" vehicles
+  668  grep -A 2 "L337" vehicles
+  669  grep -A 6 "L337" vehicles
+  670  grep -A 6 "L337" vehicles > vehicles_licence_plate
+  671  cat vehicles_licence_plate 
+  672  grep -A 6 "Blue" vehicles_licence_plate 
+  673  grep -A 6 "Blue" vehicles_licence_plate > vehicles_licence_plate_blue
+  674  cat vehicles_licence_plate_blue 
+  675  grep -A 6 "Honda" vehicles_licence_plate_blue
+  676  cat vehicles_licence_plate_blue 
+  677  ls
+  678  cat vehicles_licence_plate
+  679  grep -A 6 "Honda" vehicles_licence_plate
+  680  grep -A 10 "Honda" vehicles_licence_plate
+  681  grep -A 15 "Honda" vehicles_licence_plate
+  682  grep -A 8 "Honda" vehicles_licence_plate
+  683  grep "Honda" vehicles_licence_plate
+  684  grep -A 8 "Honda" vehicles_licence_plate
+  685  grep -A 1 -B 4 "Honda" vehicles_licence_plate
+  686  grep -A 4 -B 1 "Honda" vehicles_licence_plate
+  687  grep -A 4 -B 1 "Honda" vehicles_licence_plate > vehicles_licence_honda
+  688  car vehicles_licence_honda 
+  689  cat vehicles_licence_honda 
+  690  grep -A 3 -B 2 "blue" vehicles_licence_honda
+  691  grep -i -A 3 -B 2 "blue" vehicles_licence_honda
+  692  grep -i -A 3 -B 2 "blue" vehicles_licence_honda > vehicles_licence_honda_blue
+  693  cat vehicles_licence_honda_blue
+  694  grep -i -A 1 -B 4 "Height = 6'" vehicles_licence_honda_blue 
+  695  grep -A 1 -B 4 "Height = 6'" vehicles_licence_honda_blue 
+  696  grep -A 1 -B 4 "Height = 6" vehicles_licence_honda_blue 
+  697  grep -A 1 -B 4 "Height = 6'2" vehicles_licence_honda_blue 
+  698  grep -A 1 -B 4 "6" vehicles_licence_honda_blue 
+  699  grep -A 1 -B 4 "Height:6" vehicles_licence_honda_blue 
+  700  grep -A 1 -B 4 "Height: 6" vehicles_licence_honda_blue 
+  701  cd ..
+  
+  893  cd interviews/
+  894  cls
+  895  ls
+  896  cd ..
+  897  ls
+  898  grep man
+  899  man grep
+  900  ls
+  901  cd mystery/
+  902  ls
+  903  cat peo
+  904  cat people 
+  905  grep "Germuska" people
+  906  ls
+  907  cd streets/
+  908  grep Plainfield_Street
+  909  cat Plainfield_Street 
+  910  ls
+  911  cd ..
+  912  ls
+  913  cd interviews/
+  914  grep interview-29741223 
+  915  cat interview-29741223
+  
+  898  grep man
+  899  man grep
+  900  cd ..
+  901  grep "Bowers" people
+  902  cat Dunstable Road
+  903  cd streets/
+  904  cat Dunstable Road
+  905  cat Dunstable_Road
+  906  cd ..
+  907  ls
+  908  cd interviews/
+  909  cat interview-9620713 
+  910  cd ..
+  911  grep "Maher" people
+  912  cd streets/
+  913  grep Andover_Road
+  914  grep INTERVIEW
+  915  grep INTERVIEW Andover_Road
+  916  cd ..
+  917  cd interviews/
+  918  cat interview-904020 
+  
+  Le suspect est : Jeremy Bowers	M	34	Dunstable Road, line 284
+  
+  919  history
+  920  history > history.txt
